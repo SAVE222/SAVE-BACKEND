@@ -19,6 +19,7 @@ public enum BaseResponseStatus {
     REQUEST_ERROR(false, 2000, "입력값을 확인해주세요."),
     USERS_EMPTY_USER_ID(false, 2010, "유저 아이디 값을 확인해주세요."),
     RECORD_INVALID_CONTENTS(false, 2018, "내용의 글자수를 확인해주세요."),
+    RECORD_INVALID_VALUES(false, 2019, "유효하지 않은 값입니다."),
 
 
     /**
